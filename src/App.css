@@ -1,0 +1,423 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdwb3J0PSImbWF4LWlucG90PSIxMDBweCAxMDBweCAxMDBweCAxMDBweCIgdmVyc2lvbj0iMS4xIiB4bWxuczphPSJodHRwOi8vbnMuYWRvYmUuY29tL9phbm8vMS4wLyIgeG1sbnM6eD0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94cyI+PHJlY3QgY...");
+    background-repeat: repeat;
+    background-position: center;
+
+}
+.pg{
+    margin-left: 10px;
+    width: 40px;
+    margin-top: 140px;
+}
+
+ h2, h3 {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+ p{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  letter-spacing: 4px;
+}
+
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    background-color: #111d28;
+    color: white;
+}
+
+button:hover {
+    background-color: #a09257;
+}
+
+
+header { font-size: 14px;
+    padding: 30px;
+    width: 100%;
+    background-color:#2b3641; 
+    color: white; 
+    padding: 20px;
+    box-sizing: border-box;  
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  header h1{
+    font-family:fantasy;
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-left: 15px;
+    font-size: 40px;
+  }
+  header h1:hover{
+    color: #b7a778;
+  }
+
+footer {
+    background-color:#2b3641;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+}
+
+.bar{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bar {
+    padding: 10px;
+    font-size: 0.5cm;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    color: #000000;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 50.4%;
+    margin-left: 9.8cm;
+}
+
+
+
+.movie-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    width: 250px;
+    margin: 15px;
+}
+
+.movies {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top:50px;/* Adds space between the title and the cards */
+    color: #333; /* Color of the title */
+    text-align: center; /* Center the title */
+  }
+  
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.movie-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.movie-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.movie-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.movie-card button:hover {
+    background-color: #174463;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+.bar {
+    width: 80%;
+    max-width: 800px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;  /* Horizontally centers the form */
+    align-items: center;      /* Vertically centers the form */
+    height: 100vh;     
+    margin: 0;       /* Takes up the full viewport height */
+    
+  }
+  
+  form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    
+  }
+  
+  form:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #f0e8e8;
+  }
+  
+  input[type="text"], input[type="number"], select {
+    background-color: #f9f9f9;
+  }
+  
+  .btnform {
+    background-color: #3498db;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btnform:active {
+    transform: scale(0.98);
+  }
+  
+  select {
+    background-color: #f9f9f9;
+  }
+  
+  select option {
+    color: #333;
+  }
+  
+  span{
+    color: red;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+  }
+  
+  input:focus, select:focus, button:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  input::placeholder, select::placeholder {
+    color: #aaa;
+  }
+  
+  form .input-group {
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 600px) {
+    form {
+      padding: 20px;
+      width: 90%;
+    }
+  
+  }
+  
+  .sortDiv{
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: #0a0f12;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    width: 16%;
+    display: flex;
+    align-items: center; 
+    gap: 10px;  
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px auto;  
+    padding: 0px 10px 0px 10px;
+    }
+.sortBtn{
+    padding: 12px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    flex: 1; 
+}
+  
+h3{
+    margin-top:40px;
+}
+
+.details {
+    display: flex; /* Use flexbox for side-by-side layout */
+    width: 1112px;
+    max-width: 900px; /* Optional: restrict the width to a max value */
+    margin: 40px auto; /* Centers the div horizontally and adds top/bottom spacing */
+    padding: 0px;
+    background-color:#000000; /* White background for the details card */
+    border-radius: 10px; /* Rounded corners for the box */
+    /* Subtle shadow for a floating effect */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark text color */
+    border-radius: 15px;
+
+  }
+  
+  .details img {
+    width: 65%; /* Left part: Image takes up 40% of the container width */
+    height: 30%; /* Set a specific height for the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    border-radius: 15px 0 0 15px; /* Rounded corners for the left side */
+    margin-right: 20px; /* Space between image and text */
+  }
+  
+  .details .text {
+    width: 50%; /* Right part: Text takes up the remaining 60% */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the text vertically */
+    transform: rotate(360deg); /* Rotates the text vertically */
+    transform-origin: left center; /* Keeps the text starting from the left side */
+    white-space: nowrap; /* Ensures text doesn't wrap when rotated */
+    padding: 10px; /* Adds some space after rotating */
+    background-color:#000000;
+    border-radius: 0px 0px 15px 0px;
+  }
+  
+  .details h3 {
+    font-size: 2rem;
+    color: #e4d589; /* Blue color for the heading */
+    margin-bottom: 100px;
+    font-family: serif;
+  }
+  
+  .details p {
+    font-size: 1.1rem;
+    color: #dedbdb; /* Slightly lighter color for the text */
+    margin: 10px 0;
+    margin-bottom: 70px;
+  }
+  
+  .details p strong {
+    color: #a8977c; /* Darker color for labels (titles like "Title", "Director", etc.) */
+  }
+  
+  .details p:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last paragraph */
+  }
+  
+  .favors {
+    width: 50%;
+    max-width: 800px; /* Optional: set a max width for larger screens */
+    margin: 40px auto; /* Centers the div horizontally and adds top/bottom spacing */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background for a subtle look */
+    border-radius: 10px; /* Rounded corners for the box */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a floating effect */
+    font-family: 'Arial', sans-serif;
+    color: #333; /* Dark text color */
+    text-align: center; /* Center the text */
+  }
+  
+  .favors h2 {
+    font-size: 2rem;
+    color: #333; /* Blue color for the heading */
+    margin-bottom: 20px;
+  }
+  
+  .favors p {
+    font-size: 1.1rem;
+    color: #555; /* Slightly lighter color for the text */
+  }
+  
+  .favors ul {
+    list-style-type: none; /* Remove default list bullets */
+    padding: 0;
+  }
+  
+  .favors li {
+    font-size: 1.2rem;
+    color: #333; /* Dark text color for the list items */
+    margin: 10px 0; /* Add space between each list item */
+    padding: 10px;
+    background-color: #fff; /* White background for list items */
+    border-radius: 5px; /* Rounded corners for the list items */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for each list item */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  .favors li:hover {
+    transform: translateY(-5px); /* Lift the item on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .favors li:last-child {
+    margin-bottom: 0; /* Remove bottom margin from the last list item */
+  }
+  
